@@ -14,24 +14,21 @@ The power of neural networks lies in their ability to learn the appropriate tran
 # Audio Data Classification Assignment USING NN
 
 ## Overview
-This assignment's focus is on implementing neural networks to model audio data that you created previously. This follows our previous exploration of classical machine learning models.
-
-## Tutorial Recap
-In our last tutorial, we explored the basics of machine learning and supervised learning and performed classification using Random Forest, SVM and KNN. 
+This assignment's focus is on implementing neural networks to model audio data that you created previously. This follows our previous exploration of classical machine learning models using Random Forest, SVM and KNN. 
 
 ## Assignment Tasks
 
 ### Tasks
-1. Fork the repository to your own account, create a new branch in it. 
-2. Perform audio data classification utilizing neural network model on the combined dataset (created in the second assignment). 
-3. Commit the final changes.
-4. Merge into your main branch.
-5. Create a detailed 1–2-page report (500-1000 words) on the modeling you've undertaken and your results. Compare differences in performance, accuracy, and computational efficiency between neural networks and classical approaches, and provide insights into why these differences occur. As well as compare the performance of our model(trained on combined dataset) with the  model accuracy we saw in tutorial(using only RAVDESS),
-6. In your report, illustrate the comparsions via graphs. 
-7. Upload your report on Canvas in PDF format, along with the Jupyter Notebook file. This will provide a comprehensive overview of your exploration and application of various techniques in audio data classification modeling. 
+1. Fork the repository to your own account. 
+2. Perform audio data classification utilizing neural network model on RAVDESS.
+3. Evaluate the model both in the original test-set and also using your new audio data. Create and compare the confsion matrix for both the original test data, and your audio data.
+4. Commit your changes to your repository.
+6. Create a detailed 1–2-page report (500-1000 words) on the modeling you've undertaken and your results. Compare the accuracy on your own test set and RAVDESS test set, use graphics of the confusion matrix and results of different metrics. Compare differences in performance, accuracy, and computational efficiency between neural networks and classical approaches you had from last week, and provide insights into why these differences occur.
+7. In your report, illustrate the comparsions via graphs. 
+8. Upload your report on Canvas in PDF format, along with the link of your repository and data. This will provide a comprehensive overview of your exploration and application of various techniques in audio data classification modeling. 
 
 
 ## Contact
-For queries or further discussions, feel free to reach out to TA( maryiam_zahoor@sfu.ca)
+For queries or further discussions, feel free to reach out to TA.
 
 Credits: https://github.com/IliaZenkov/sklearn-audio-classification 
